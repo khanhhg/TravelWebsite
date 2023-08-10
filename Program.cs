@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Travels.Data;
+using Travels.Data.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,9 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddScoped<IBlogRepository, BlogRepository>();
+builder.Services.AddScoped<IPlaceRepository, PlaceRepository>();
+builder.Services.AddScoped<IMenuPageRepository, MenuPageRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,14 +35,24 @@ else
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+
 app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllerRoute(
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+    endpoints.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+});
+
 app.MapRazorPages();
 
 app.Run();

@@ -1,0 +1,128 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.PagedList<Travels.Models.EF.Place>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title"> Place </div>
+                <div class="head-content">
+                    <div class="col-md-6">
+                        <ul class="navbar-nav navbar-nav-right">
+                            <li class="nav-item nav-search d-none d-md-block mr-0">
+                                @using (Html.BeginForm("index", "place", FormMethod.Get, new { @class = "form-search" }))
+                                {
+                                    <div class="input-group">
+                                        @Html.TextBox("Searchtext",null, new { @class = "form-control" })
+                                        <button type="submit" class="input-group-prepend">
+                                            <span class="input-group-text" id="search">
+                                                <i class="typcn typcn-zoom"></i>
+                                            </span>
+                                        </button>
+                                    </div>
+
+                                }
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6">
+                        <a href="/admin/place/create" class="btn btn-primary">Create</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive pt-3">
+                    <table class="table table-striped project-orders-table">
+                        <thead>
+                            <tr>
+                                <th class="ml-5">#</th>
+                                <th>Image</th>
+                                <th>Place name</th>
+                                <th>Description</th>                       
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null && Model.Any())
+                            {
+                                var i = 1;
+                                foreach (var item in Model)
+                                {
+                                    <tr id="trow_@item.PlaceId">
+                                        <td>@i</td>
+                                        <td><img src="@Travels.Common.Parameter.PlacePathImage/@item.Image" class="img-table"/></td>
+                                        <td>@item.PlaceName</td>
+                                        <td>@item.Description</td>                                       
+                                        <td>
+                                            <a href="/admin/place/edit/@item.PlaceId" class="btn btn-success btn-sm btn-icon-text mr-3">
+                                                Edit
+                                                <i class="typcn typcn-edit btn-icon-append"></i>
+                                            </a>
+                                            <a data-id="@item.PlaceId" class="btn btn-sm btn-danger btnDelete">
+                                                Delete
+                                                <i class="typcn typcn-delete-outline btn-icon-append"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    i++;
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="4">There are no records yet!!!</td>
+
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="col-md-12">
+                    <div class="card-page">
+                        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+
+    <script>
+        $(document).ready(function () {
+            $('body').on('click', '.btnDelete', function () {
+                var id = $(this).data("id");
+                var conf = confirm('Do you want to delete this record?');
+                if (conf === true) {
+                    $.ajax({
+                        type: 'POST',
+                        url: '/admin/place/Delete',
+                        data: { id: id },
+                        success: function (response) {
+                            if (response.success) {
+                                $('#trow_' + id).remove();
+                                $.toast({
+                                    heading: 'Success',
+                                    text: 'Delete record success',
+                                    icon: 'success',
+                                    position: 'bottom-right'
+                                });
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}
+
