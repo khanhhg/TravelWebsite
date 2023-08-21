@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
 using Travels.Data.Repository;
 using Travels.Models.EF;
 using X.PagedList;
@@ -45,26 +44,16 @@ namespace Travels.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Place place, IFormFile fileImage)
         {
+            ModelState.ClearValidationState("Tours");
+            ModelState.MarkFieldValid("Tours");
             if (ModelState.IsValid)
             {
-                if (fileImage.FileName != null)
+                if (fileImage != null)
                 {
-
-                    FileInfo fileInfo = new FileInfo(fileImage.FileName);
-
-                    if (fileInfo.Extension == ".jpg" || fileInfo.Extension == ".png" || fileInfo.Extension == ".jpeg")
+                    string _Image = Common.Common.SaveFile(path, fileImage);
+                    if (_Image != "")
                     {
-                        if (!Directory.Exists(path))
-                        {
-                            Directory.CreateDirectory(path);
-                        }
-                        string filename = Common.Common.RandomString(12) + fileInfo.Extension;
-                        string fileNameWithPath = Path.Combine(path, filename);
-                        using (var stream = new FileStream(fileNameWithPath, FileMode.Create))
-                        {
-                            fileImage.CopyTo(stream);
-                        }
-                        place.Image = filename;
+                        place.Image = _Image;
                     }
                 }
                 await _placeRepository.Add(place);
@@ -98,8 +87,8 @@ namespace Travels.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ModelState.ClearValidationState("Products");
-            ModelState.MarkFieldValid("Products");
+            ModelState.ClearValidationState("Tours");
+            ModelState.MarkFieldValid("Tours");
             ModelState.ClearValidationState("fileImage");
             ModelState.MarkFieldValid("fileImage");
             var place_Edit = await _placeRepository.Get((int)id);
@@ -107,22 +96,11 @@ namespace Travels.Areas.Admin.Controllers
             {
                 if (fileImage != null)
                 {
-                    FileInfo fileInfo = new FileInfo(fileImage.FileName);
-
-                    if (fileInfo.Extension == ".jpg" || fileInfo.Extension == ".png" || fileInfo.Extension == ".jpeg")
+                    string _Image = Common.Common.SaveFile(path, fileImage);
+                    if (_Image !="")
                     {
-                        if (!Directory.Exists(path))
-                        {
-                            Directory.CreateDirectory(path);
-                        }
-                        string filename = Common.Common.RandomString(12) + fileInfo.Extension;
-                        string fileNameWithPath = Path.Combine(path, filename);
-                        using (var stream = new FileStream(fileNameWithPath, FileMode.Create))
-                        {
-                            fileImage.CopyTo(stream);
-                        }
-                        place_Edit.Image = filename;
-                    }
+                        place_Edit.Image = _Image;
+                    }                                     
                 }
                 place_Edit.Description = place.Description;
                 place_Edit.PlaceName = place.PlaceName;

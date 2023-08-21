@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Travels.Models.Common;
 
 namespace Travels.Models.EF
 {
     [Table("Tour")]
-    public class Tour
+    public class Tour : CommonAbstract
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]

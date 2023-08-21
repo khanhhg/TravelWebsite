@@ -24,6 +24,15 @@ namespace Travels.Data.Repository
         {
             return await _context.Blog.ToListAsync();
         }
+        public async Task<IList<Blog>> GetBlogHomePage()
+        {
+            return await _context.Blog.OrderByDescending(x=>x.CreatedDate).Take(3).ToListAsync();
+        }
+
+        public async Task<IList<BlogCategory>> GetAllCategory()
+        {
+            return await _context.BlogCategory.ToListAsync();
+        }
         public async Task<Blog> Get(int blogId)
         {
             return await _context.Blog.FirstOrDefaultAsync(x => x.BlogId == blogId);

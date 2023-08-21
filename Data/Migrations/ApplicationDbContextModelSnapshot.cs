@@ -232,6 +232,15 @@ namespace Travels.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BlogId"), 1L, 1);
 
+                    b.Property<int>("BlogCategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(500)
@@ -248,6 +257,12 @@ namespace Travels.Data.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Modifiedby")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(250)
@@ -255,7 +270,42 @@ namespace Travels.Data.Migrations
 
                     b.HasKey("BlogId");
 
+                    b.HasIndex("BlogCategoryId");
+
                     b.ToTable("Blog");
+                });
+
+            modelBuilder.Entity("Travels.Models.EF.BlogCategory", b =>
+                {
+                    b.Property<int>("BlogCategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BlogCategoryId"), 1L, 1);
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Modifiedby")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.HasKey("BlogCategoryId");
+
+                    b.ToTable("BlogCategory");
                 });
 
             modelBuilder.Entity("Travels.Models.EF.Contact", b =>
@@ -304,13 +354,28 @@ namespace Travels.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MenuPageId"), 1L, 1);
 
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Link")
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Modifiedby")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -333,13 +398,23 @@ namespace Travels.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PlaceId"), 1L, 1);
 
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Modifiedby")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PlaceName")
                         .IsRequired()
@@ -359,6 +434,12 @@ namespace Travels.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TourId"), 1L, 1);
 
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
@@ -372,6 +453,12 @@ namespace Travels.Data.Migrations
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Modifiedby")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");
@@ -396,6 +483,18 @@ namespace Travels.Data.Migrations
 
                     b.Property<DateTime>("CheckOutDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Modifiedby")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Person")
                         .HasColumnType("int");
@@ -464,10 +563,21 @@ namespace Travels.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Travels.Models.EF.Blog", b =>
+                {
+                    b.HasOne("Travels.Models.EF.BlogCategory", "BlogCategory")
+                        .WithMany("Blog")
+                        .HasForeignKey("BlogCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("BlogCategory");
+                });
+
             modelBuilder.Entity("Travels.Models.EF.Tour", b =>
                 {
                     b.HasOne("Travels.Models.EF.Place", "Place")
-                        .WithMany()
+                        .WithMany("Tours")
                         .HasForeignKey("PlaceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -484,6 +594,16 @@ namespace Travels.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Tour");
+                });
+
+            modelBuilder.Entity("Travels.Models.EF.BlogCategory", b =>
+                {
+                    b.Navigation("Blog");
+                });
+
+            modelBuilder.Entity("Travels.Models.EF.Place", b =>
+                {
+                    b.Navigation("Tours");
                 });
 #pragma warning restore 612, 618
         }

@@ -17,5 +17,6 @@ namespace Travels.Data
         public DbSet<Place> Place { get; set; }
         public DbSet<Tour> Tour { get; set; }
         public DbSet<TourDetails> TourDetails { get; set; }
+        public DbSet<BlogCategory> BlogCategory { get; set; }
     }
 }

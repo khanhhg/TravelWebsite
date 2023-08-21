@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using Travels.Models.Common;
 
 namespace Travels.Models.EF
 {
     [Table("Blog")]
-    public class Blog
+    public class Blog : CommonAbstract
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
@@ -20,6 +21,8 @@ namespace Travels.Models.EF
         [Required(ErrorMessage = "Detail cannot be null")]
         public string Detail { get; set; }
         public string Image { get; set; }      
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
+        public int BlogCategoryId { get; set; }
+        public virtual BlogCategory BlogCategory { get; set; }
     }
 }

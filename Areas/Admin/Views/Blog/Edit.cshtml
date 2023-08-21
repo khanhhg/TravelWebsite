@@ -41,7 +41,7 @@
                             </span>
                         </div>
 
-                        <img id="PrevImg" src="https://placehold.jp/200x150.png" style="width:200px;height:150px; border:1px solid red; border-radius:10px;padding:10px;margin-top:10px" />
+                        <img id="PrevImg" src="@Travels.Common.Parameter.BlogPathImage/@Model.Image" style="width:200px;height:150px; border:1px solid red; border-radius:10px;padding:10px;margin-top:10px" />
 
                     </div>
 
@@ -63,6 +63,8 @@
         tinymce.init({
             selector: 'textarea#txtDetail',
             height: 300,
+            images_upload_url: '/admin/Blog/TinyMceUpload',
+            automatic_uploads: true,
             plugins: [
                 'advlist', 'autolink', 'link', 'image', 'lists', 'charmap', 'preview',
                 'anchor', 'pagebreak',

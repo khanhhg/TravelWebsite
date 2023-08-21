@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis;
+using System.Security.Claims;
 using Travels.Data.Repository;
 using Travels.Models.EF;
 using X.PagedList;
@@ -34,43 +37,36 @@ namespace Travels.Areas.Admin.Controllers
             ViewBag.Page = page;
             return View(items);
         }
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            ViewBag.BlogCategory = new SelectList(await _blogRepository.GetAllCategory(), "BlogCategoryId", "Name");
             return View();
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Blog blog, IFormFile fileImage)
         {
+            ModelState.ClearValidationState("BlogCategory");
+            ModelState.MarkFieldValid("BlogCategory");
+            ModelState.ClearValidationState("Image");
+            ModelState.MarkFieldValid("Image");
             if (ModelState.IsValid)
             {
                 if (fileImage.FileName != null)
                 {
-
-                    FileInfo fileInfo = new FileInfo(fileImage.FileName);
-
-                    if (fileInfo.Extension == ".jpg" || fileInfo.Extension == ".png" || fileInfo.Extension == ".jpeg")
-                    {
-                        if (!Directory.Exists(path))
-                        {
-                            Directory.CreateDirectory(path);
-                        }
-                        string filename = Common.Common.RandomString(12) + fileInfo.Extension;
-                        string fileNameWithPath = Path.Combine(path, filename);
-                        using (var stream = new FileStream(fileNameWithPath, FileMode.Create))
-                        {
-                            fileImage.CopyTo(stream);
-                        }
-                        blog.Image = filename;
-                    }
+                    blog.Image = Common.Common.SaveFile(path, fileImage);                  
                 }
+                blog.Detail = blog.Detail.Replace("../..", String.Empty);
                 blog.IsActive = true;
+                blog.CreatedDate = DateTime.Now;
+                blog.ModifiedDate = DateTime.Now;
+                blog.CreatedBy = User.FindFirstValue(ClaimTypes.NameIdentifier);
                 await _blogRepository.Add(blog);
                 return RedirectToAction(nameof(Index));
             }
             else
             {
+                ViewBag.BlogCategory = new SelectList(await _blogRepository.GetAllCategory(), "BlogCategoryId", "Name");
                 return View(blog);
             }
         }
@@ -86,7 +82,11 @@ namespace Travels.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return View(place);
+            else
+            {
+                ViewBag.BlogCategory = new SelectList(await _blogRepository.GetAllCategory(), "BlogCategoryId", "Name");
+                return View(place);
+            }
         }
 
         [HttpPost]
@@ -97,41 +97,27 @@ namespace Travels.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ModelState.ClearValidationState("Products");
-            ModelState.MarkFieldValid("Products");
-            ModelState.ClearValidationState("fileImage");
-            ModelState.MarkFieldValid("fileImage");
+            ModelState.ClearValidationState("BlogCategory");
+            ModelState.MarkFieldValid("BlogCategory");
             var blog_Edit = await _blogRepository.Get((int)id);
             if (ModelState.IsValid)
             {
                 if (fileImage != null)
                 {
-                    FileInfo fileInfo = new FileInfo(fileImage.FileName);
-
-                    if (fileInfo.Extension == ".jpg" || fileInfo.Extension == ".png" || fileInfo.Extension == ".jpeg")
-                    {
-                        if (!Directory.Exists(path))
-                        {
-                            Directory.CreateDirectory(path);
-                        }
-                        string filename = Common.Common.RandomString(12) + fileInfo.Extension;
-                        string fileNameWithPath = Path.Combine(path, filename);
-                        using (var stream = new FileStream(fileNameWithPath, FileMode.Create))
-                        {
-                            fileImage.CopyTo(stream);
-                        }
-                        blog_Edit.Image = filename;
-                    }
+                    blog_Edit.Image = Common.Common.SaveFile(path, fileImage);                
                 }
+
                 blog_Edit.Description = blog.Description;
                 blog_Edit.Title = blog.Title;
-                blog_Edit.Detail = blog.Detail;
-
+                blog_Edit.Detail = blog.Detail.Replace("../..",String.Empty);
+                blog_Edit.ModifiedDate = DateTime.Now;
+                blog_Edit.Modifiedby = User.FindFirstValue(ClaimTypes.NameIdentifier);
                 await _blogRepository.Update(blog_Edit);
                 return RedirectToAction(nameof(Index));
             }
             else
             {
+                ViewBag.BlogCategory = new SelectList(await _blogRepository.GetAllCategory(), "BlogCategoryId", "Name");
                 return View(blog);
             }
         }
@@ -148,12 +134,27 @@ namespace Travels.Areas.Admin.Controllers
                     file.Delete();
                 }
                 await _blogRepository.Delete(item);
-                return Json(new { success = false });
+                return Json(new { success = true });
             }
             else
             {
                 return Json(new { success = false });
             }
         }
+        [HttpPost]
+        public ActionResult TinyMceUpload(IFormFile file)
+        {
+            string targetFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\blog\\details");
+            if (file != null)
+            {
+                var location = Common.Parameter.BlogDetailPathImage +"/"+ Common.Common.SaveFile(targetFolder, file);             
+                return Json(new { location });
+            }
+            else
+            {
+                var Error = "File not found !";
+                return Json(new { Error });
+            }        
+        }       
     }
 }

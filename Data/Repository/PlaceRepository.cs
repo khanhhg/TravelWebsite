@@ -24,6 +24,10 @@ namespace Travels.Data.Repository
         {
             return await _context.Place.ToListAsync();
         }
+        public async Task<IList<Place>> GetPlaceHome()
+        {
+            return await _context.Place.Include(x=>x.Tours).Take(4).ToListAsync();
+        }
         public async Task<Place> Get(int placeId)
         {
             return await _context.Place.FirstOrDefaultAsync(x => x.PlaceId == placeId);

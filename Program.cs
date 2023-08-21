@@ -18,6 +18,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IBlogRepository, BlogRepository>();
 builder.Services.AddScoped<IPlaceRepository, PlaceRepository>();
 builder.Services.AddScoped<IMenuPageRepository, MenuPageRepository>();
+builder.Services.AddScoped<IBlogCategoryRepository, BlogCategoryRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

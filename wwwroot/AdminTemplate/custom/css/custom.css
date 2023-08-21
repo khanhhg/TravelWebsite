@@ -29,6 +29,13 @@
 .img-table{
     width:90px !important;
     height:60px !important;
-    border-radius:unset !important
-        ;
+    border-radius:unset !important;
+        
+}
+.table th, .table td {
+    line-height:1.5rem !important;
+    white-space :unset !important;
+}
+.col-action{
+    min-width:220px ;
 }

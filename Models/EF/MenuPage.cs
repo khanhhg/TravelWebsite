@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Travels.Models.Common;
 
 namespace Travels.Models.EF
 {
     [Table("MenuPage")]
-    public class MenuPage
+    public class MenuPage : CommonAbstract
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
@@ -19,5 +20,6 @@ namespace Travels.Models.EF
 
         [Range(0, int.MaxValue, ErrorMessage = "Please enter valid integer Number")]
         public int? Position { get; set; }
+        public bool IsActive { get; set; } = true;
     }
 }

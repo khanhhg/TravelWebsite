@@ -15,6 +15,7 @@ namespace Travels.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Current = "Home";
             return View();
         }
 

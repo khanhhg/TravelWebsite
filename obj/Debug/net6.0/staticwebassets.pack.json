@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "E:\\NET\\WebsiteTravel\\Travels\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Travels.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Travels.bundle.scp.css"
-    },
-    {
       "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\AdminTemplate\\css\\maps\\horizontal-layout-dark\\style.css.map",
       "PackagePath": "staticwebassets\\AdminTemplate\\css\\maps\\horizontal-layout-dark\\style.css.map"
     },
@@ -4605,6 +4601,86 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\1DZJ4QKKDGIZ.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\1DZJ4QKKDGIZ.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\1SGV3B730MFN.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\1SGV3B730MFN.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\EIZFTM2QZI7I.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\EIZFTM2QZI7I.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\JTS0I0E4278Q.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\JTS0I0E4278Q.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\190A28ROVQND.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\190A28ROVQND.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\2399AD5L973F.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\2399AD5L973F.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\6EZ24F0WWACU.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\6EZ24F0WWACU.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\6IGY5CNGFVNZ.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\6IGY5CNGFVNZ.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\71VGEH6MANPZ.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\71VGEH6MANPZ.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\76NM9473I2AY.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\76NM9473I2AY.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\C93DAF9XZGLH.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\C93DAF9XZGLH.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\DEFEAP8ZKNDY.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\DEFEAP8ZKNDY.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\HCT8GMBB4YYT.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\HCT8GMBB4YYT.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\JTCNCKNDYHA2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\JTCNCKNDYHA2.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\MLPC7FZEI1OD.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\MLPC7FZEI1OD.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\TVGAXT3GPOJH.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\TVGAXT3GPOJH.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\blog\\details\\VUPKC5LJSQX0.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\details\\VUPKC5LJSQX0.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\place\\298TI035U44U.jpg",
+      "PackagePath": "staticwebassets\\images\\place\\298TI035U44U.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\place\\HSCACOE51ZMK.jpg",
+      "PackagePath": "staticwebassets\\images\\place\\HSCACOE51ZMK.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\place\\VSKZHNXIKOM8.jpg",
+      "PackagePath": "staticwebassets\\images\\place\\VSKZHNXIKOM8.jpg"
+    },
+    {
       "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\images\\place\\WI2KRUO80LT9.jpg",
       "PackagePath": "staticwebassets\\images\\place\\WI2KRUO80LT9.jpg"
     },
@@ -5255,6 +5331,774 @@
     {
       "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\vacation\\css\\.DS_Store"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\vacation\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\animate.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\animate.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\aos.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\aos.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\vacation\\css\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\vacation\\css\\css\\.DS_Store"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\css\\mixins\\_text-hide.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\css\\mixins\\_text-hide.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\customstyle.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\customstyle.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\flaticon.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\icomoon.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\jquery.timepicker.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\jquery.timepicker.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\css\\style.css",
+      "PackagePath": "staticwebassets\\vacation\\css\\style.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\.DS_Store",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\.DS_Store"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\backup.txt"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\font\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\font\\Flaticon.woff2"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\font\\flaticon.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\font\\flaticon.html"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\flaticon\\license\\license.pdf"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\icomoon\\icomoon.eot",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\icomoon\\icomoon.eot"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\icomoon\\icomoon.svg",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\icomoon\\icomoon.svg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\icomoon\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\icomoon\\icomoon.ttf"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\icomoon\\icomoon.woff",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\icomoon\\icomoon.woff"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\ionicons\\css\\_ionicons.scss",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\ionicons\\css\\_ionicons.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\ionicons\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\ionicons\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\ionicons\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\ionicons\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\ionicons\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\ionicons\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\ionicons\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\ionicons\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\ionicons\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\ionicons\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\ionicons\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\ionicons\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\ionicons\\fonts\\ionicons.woff2",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\ionicons\\fonts\\ionicons.woff2"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\open-iconic\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\open-iconic\\open-iconic.eot"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\open-iconic\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\open-iconic\\open-iconic.otf"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\open-iconic\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\open-iconic\\open-iconic.svg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\open-iconic\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\open-iconic\\open-iconic.ttf"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\fonts\\open-iconic\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\vacation\\fonts\\open-iconic\\open-iconic.woff"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\vacation\\images\\.DS_Store"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\about-1.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\about-1.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\about.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\bg_1.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\bg_1.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\bg_2.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\bg_2.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\bg_3.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\bg_3.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-1.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-1.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-10.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-10.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-11.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-11.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-12.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-12.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-2.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-2.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-3.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-3.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-4.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-4.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-5.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-5.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-6.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-6.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-7.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-7.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-8.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-8.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\destination-9.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\destination-9.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\footer-bg.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\footer-bg.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\image_1.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\image_1.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\image_2.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\image_2.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\image_3.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\image_3.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\image_4.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\image_4.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\image_5.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\image_5.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\image_6.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\image_6.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\loc.png",
+      "PackagePath": "staticwebassets\\vacation\\images\\loc.png"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\person_1.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\person_2.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\person_3.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\person_4.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\place-1.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\place-1.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\place-2.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\place-2.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\place-3.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\place-3.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\images\\place-4.jpg",
+      "PackagePath": "staticwebassets\\vacation\\images\\place-4.jpg"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\vacation\\js\\.DS_Store"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\aos.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\aos.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\google-map.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\google-map.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\jquery-migrate-3.0.1.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\jquery.animateNumber.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\jquery.animateNumber.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\jquery.easing.1.3.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\jquery.stellar.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\jquery.stellar.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\main.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\main.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\popper.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\range.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\range.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\js\\scrollax.min.js",
+      "PackagePath": "staticwebassets\\vacation\\js\\scrollax.min.js"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\vacation\\scss\\.DS_Store"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "E:\\NET\\WebsiteTravel\\Travels\\wwwroot\\vacation\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\vacation\\scss\\style.scss"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Travels.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -9,5 +9,7 @@ namespace Travels.Data.Repository
         Task Add(Place place);
         Task<Place> Update(Place place);
         Task Delete(Place place);
+        Task<IList<Place>> GetPlaceHome();
+        
     }
 }

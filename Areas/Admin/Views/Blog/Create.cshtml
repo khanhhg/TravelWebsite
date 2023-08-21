@@ -9,13 +9,19 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Create Blog</h4>
-                @using (Html.BeginForm("create", "place", FormMethod.Post, new { @class = "forms-sample", @enctype = "multipart/form-data" }))
+                @using (Html.BeginForm("create", "blog", FormMethod.Post, new { @class = "forms-sample", @enctype = "multipart/form-data" }))
                 {
                     @Html.AntiForgeryToken()
                     @Html.ValidationSummary(true)
                     <!-- your steps content here -->
                     <div class="form-group">
-                        <label>Place name</label>
+                        <label>Category</label>
+                        @Html.DropDownListFor(x => x.BlogCategoryId, ViewBag.BlogCategory as SelectList, "- Select Blog Category -", new { @class = "form-control", @placeholder = "Blog Category" })
+                        @Html.ValidationMessageFor(x => x.BlogCategoryId, null, new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Title</label>
                         @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Place name" })
                         @Html.ValidationMessageFor(x => x.Title, null, new { @class = "text-danger" })
                     </div>
@@ -58,10 +64,12 @@
 @section  scripts{
     <script src="/AdminTemplate/js/file-upload.js"></script>
     <script src="~/js/jImagePreview.js"></script>
-    <script>
+    <script>      
         tinymce.init({
             selector: 'textarea#txtDetail',
             height: 300,
+            images_upload_url: '/admin/Blog/TinyMceUpload',
+            automatic_uploads: true,
             plugins: [
                 'advlist', 'autolink', 'link', 'image', 'lists', 'charmap', 'preview',
                 'anchor', 'pagebreak',
@@ -71,7 +79,8 @@
             ],
             toolbar: 'undo redo | styles | bold italic | alignleft aligncenter alignright alignjustify | ' +
                 'bullist numlist outdent indent | link image | print preview media fullscreen | ' +
-                'forecolor backcolor emoticons | help',
+                'forecolor backcolor emoticons | help',          
+                            
         });
     </script>
 }

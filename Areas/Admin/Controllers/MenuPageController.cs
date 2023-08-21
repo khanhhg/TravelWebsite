@@ -42,19 +42,16 @@ namespace Travels.Areas.Admin.Controllers
             return View();
         }
 
-        // POST: Admin/Categories/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(MenuPage menuPage)
         {
             if (ModelState.IsValid)
             {
-                //category.CreatedDate = DateTime.Now;
-                //category.ModifiedDate = DateTime.Now;
-                //category.CreatedBy = User.FindFirstValue(ClaimTypes.NameIdentifier);
-                //category.IsActive = true;
+                menuPage.CreatedDate = DateTime.Now;
+                menuPage.ModifiedDate = DateTime.Now;
+                menuPage.CreatedBy = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                menuPage.IsActive = true;
                 await _menuPageRepository.Add(menuPage);
                 return RedirectToAction(nameof(Index));
             }
@@ -80,9 +77,6 @@ namespace Travels.Areas.Admin.Controllers
             return View(menuPage);
         }
 
-        // POST: Admin/Categories/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, MenuPage menuPage)
@@ -94,8 +88,8 @@ namespace Travels.Areas.Admin.Controllers
 
             if (ModelState.IsValid)
             {
-                //category.Modifiedby = User.FindFirstValue(ClaimTypes.NameIdentifier);
-                //category.ModifiedDate = DateTime.Now;
+                menuPage.Modifiedby = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                menuPage.ModifiedDate = DateTime.Now;
                 await _menuPageRepository.Update(menuPage);
                 return RedirectToAction(nameof(Index));
             }
