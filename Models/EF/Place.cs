@@ -14,7 +14,7 @@ namespace Travels.Models.EF
         [Required(ErrorMessage = "PlaceName cannot be null")]
         [StringLength(250, ErrorMessage = "Must not exceed 250 characters")]
         public string PlaceName { get; set; }
-        public string? Image { get; set; }
+        public string? Image { get; set; }     
         public string? Description { get; set; }
         public ICollection<Tour> Tours { get; set; }
     }

@@ -92,6 +92,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TaWRlYmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/NET/WebsiteTravel/Travels/Areas/Admin/Views/Tour/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91clxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NET/WebsiteTravel/Travels/Areas/Admin/Views/Tour/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91clxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NET/WebsiteTravel/Travels/Areas/Admin/Views/Tour/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG91clxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/NET/WebsiteTravel/Travels/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -114,6 +126,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/NET/WebsiteTravel/Travels/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NET/WebsiteTravel/Travels/Views/Destination/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25cRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/NET/WebsiteTravel/Travels/Views/Destination/Index.cshtml]
@@ -142,6 +158,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/NET/WebsiteTravel/Travels/Views/Shared/Components/Categories/default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmllc1xkZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/NET/WebsiteTravel/Travels/Views/Shared/Components/DestinationHome/default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGVzdGluYXRpb25Ib21lXGRlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/NET/WebsiteTravel/Travels/Views/Shared/Components/MenuPage/default.cshtml]

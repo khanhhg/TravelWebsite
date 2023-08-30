@@ -434,11 +434,17 @@ namespace Travels.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TourId"), 1L, 1);
 
+                    b.Property<bool>("Beach")
+                        .HasColumnType("bit");
+
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("DayTour")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
@@ -460,8 +466,14 @@ namespace Travels.Data.Migrations
                     b.Property<string>("Modifiedby")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Mountain")
+                        .HasColumnType("bit");
+
                     b.Property<int>("PlaceId")
                         .HasColumnType("int");
+
+                    b.Property<decimal?>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("TourId");
 
